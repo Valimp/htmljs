@@ -7,7 +7,6 @@ function App() {
   const [number, setNumber] = useState(0);
   const [inputNumber, setInputNumber] = useState(0);
   function calculComplique(number) {
-    console.log('Calcul compliqué lancé !');
     return number * 2;
   }
 
